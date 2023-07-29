@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
+import myimage from './static/img/myimage.jpeg'
 
 function App() {
  return (
@@ -15,13 +16,17 @@ function App() {
           </div>
           <div className='w-full h-full rounded-3xl'>
             <div className='rounded-3xl w-full h-full md:pt-64 md:pl-64'>
-              <div className='w-80 h-80 md:w-[500px] md:h-[500px] rounded-full bg-black z-50'></div>
+              <div className='w-80 h-80 md:w-[500px] md:h-[500px] rounded-full bg-black z-50 absolute -skew-y-6 p-4'>
+                <div className='w-full h-full bg-white rounded-full p-4'>
+                  <img src={myimage} alt="" className='rounded-full skew-y-6' />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='w-full h-[700px] bg-blue-600 -z-50'></div>
+      <div className='w-full h-[1300px] bg-blue-600 -z-50'></div>
     </div>
   );
 }

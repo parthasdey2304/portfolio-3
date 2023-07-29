@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return ( 
-    <nav className="bg-white">
+    <nav className="bg-white fixed">
         <div className="w-screen flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" className="flex items-center">
                 <span className="self-center text-2xl lg:text-5xl font-bold whitespace-nowrap text-blue-600">Parthasarathidey.tech</span>
