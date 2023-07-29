@@ -22,10 +22,10 @@ function Navbar() {
                 <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:text-3xl">About</a>
                 </li>
                 <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:text-3xl">Services</a>
+                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:text-3xl">Projects</a>
                 </li>
                 <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:text-3xl">Pricing</a>
+                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:text-3xl">Certificates</a>
                 </li>
                 <li>
                 <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:text-3xl">Contact</a>
@@ -34,8 +34,7 @@ function Navbar() {
             </div>
         </div>
     </nav>
-
   )
 }
 
-export default Navbar
+export default Navbar;
